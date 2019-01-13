@@ -1,3 +1,6 @@
+/**
+ * create by Zen.Liu<https://github.com/ZenLiuCN/scrollerts>
+ */
 class Animate {
   time =
     Date.now ||
