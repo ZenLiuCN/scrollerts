@@ -1338,7 +1338,7 @@ export class AdvScroller extends Scroller {
     self.__lastTouchLeft = currentTouchLeft
     self.__lastTouchTop = currentTouchTop
     self.__lastTouchMove = timeStamp
-    self.__lastScale = scale
+    self.__lastScale = scale?scale:1
   }
   doTouchEnd = (timeStamp: Date | number) => {
     if (timeStamp instanceof Date) {
